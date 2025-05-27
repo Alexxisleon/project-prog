@@ -1,0 +1,115 @@
+
+PowerShell:     CMD:				O QUE FAZ:
+Get-Location ou pwd				Mostra o diretório atual
+Set-Location ou cd				Muda de diretório
+Get-ChildItem ou ls				Lista arquivos e pastas
+New-Item					Cria um novo arquivo ou pasta
+Remove-Item ou rm				Apaga arquivos ou pastas
+Copy-Item ou  cp				Copia arquivos/pastas
+Move-Item ou  mv				Move arquivos/pastas
+Clear-Host ou clear				Limpa a tela
+Start-Process nome_prog				Abre um programa externo (ex: code, explorer)
+Get-Content arquivo.txt				Mostra o conteúdo de um arquivo
+Set-Content arquivo.txt "texto"			Substitui conteúdo de arquivo
+Add-Content arquivo.txt "texto"			Adiciona conteúdo a um arquivo
+Test-Path					Verifica se um arquivo ou pasta existe
+New-Item -ItemType Directory ou mkdir 		Cria uma pasta
+Get-Process					Lista processos ativos
+Stop-Process -Name nome				Encerra um processo
+dotnet, python, git, node, npm, java, etc.	Executa comandos de ferramentas de programação (se instaladas)
+code .						Abre o VS Code na pasta atual
+ipconfig ou Get-NetIPAddress			Ver IP local
+ping google.com					Testa conexão com um servidor
+
+
+CMD: comandos:					O QUE FAZ:
+cd						Muda de diretório
+dir						Lista arquivos e pastas
+cls						Limpa a tela
+mkdir						Cria pasta
+del						Apaga arquivo
+copy						Copia arquivos
+move						Move arquivos
+type						Mostra o conteúdo de um arquivo
+start nome_do_programa				Abre programa ou arquivo
+tasklist					Lista processos ativos
+taskkill /IM nome.exe				Finaliza processo
+ipconfig					Mostra informações de rede
+ping						Testa conectividade
+echo texto					Imprime texto na tela
+echo texto > arquivo.txt			Cria/substitui conteúdo de arquivo
+echo texto >> arquivo.txt			Adiciona conteúdo a arquivo
+exit						Fecha o CMD
+code .						Abre o VS Code (se estiver no PATH)
+shutdown /s /t 0				desliga o PC
+shutdown /r /t 0				reinicia o PC
+
+COMANDO EXTRAS:
+
+comando:					O QUE FAZ:
+git init					Cria um novo repositório Git na pasta atual
+git clone URL					Clona um repositório remoto para sua máquina
+git status					Mostra arquivos modificados, prontos para commit ou não
+git add nome-do-arquivo				Adiciona um arquivo para o próximo commit
+git add .					Adiciona todos os arquivos modificados
+git commit -m "mensagem"			Salva mudanças localmente com uma mensagem
+git push					Envia commits locais para o repositório remoto (ex: GitHub)
+git pull					Baixa e integra mudanças do repositório remoto
+git fetch					Baixa alterações remotas sem integrar automaticamente
+git merge nome-da-branch			Junta outra branch à branch atual
+
+Trabalho com Branches
+Comando:					O QUE FAZ:
+git branch					Lista branches locais
+git branch nome-da-branch			Cria uma nova branch
+git checkout nome-da-branch			Muda para outra branch
+git switch nome-da-branch			Alternativa moderna ao checkout
+git checkout -b nova-branch			Cria e já muda para a nova branch
+git merge nome-da-branch			Junta a branch informada com a atual
+git branch -d nome				Apaga branch local (se já foi mesclada)
+
+Histórico e Diagnóstico
+Comando:					O QUE FAZ:
+git log	Mostra o 				histórico de commits
+git log --oneline				Mostra o histórico resumido
+git diff					Mostra as diferenças entre arquivos alterados
+git show <hash>					Mostra detalhes de um commit específico
+
+Desfazendo mudanças
+Comando:					O QUE FAZ:
+git restore nome-arquivo			Desfaz mudanças no arquivo (sem commit)
+git reset HEAD nome-arquivo			Remove arquivo da área de staging
+git reset --hard				Desfaz tudo (cuidado: perda de dados locais)
+
+Trabalhando com GitHub
+Comando:					O QUE FAZ:
+git remote add origin URL			Define o repositório remoto (origin)
+git push -u origin main				Envia a branch main e configura o push padrão
+git clone URL					Clona um repositório do GitHub para sua máquina
+
+Extras úteis
+Comando:					O QUE FAZ:
+git config --global user.name "Seu Nome"	Define seu nome de usuário Git
+git config --global user.email "seu@email.com"	Define seu e-mail Git
+git config --list				Lista configurações globais
+git stash					Guarda temporariamente mudanças não commitadas
+git stash pop					Recupera mudanças guardadas
+
+
+
+
+Node/NPM: npm install, npm start, npx, etc.
+
+Python: python script.py, pip install pacote, etc.
+
+Esses comandos funcionam em ambos os ambientes, se o programa estiver instalado e no PATH.
+
+
+
+
+
+
+
+
+
+
